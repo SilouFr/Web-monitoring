@@ -1,0 +1,63 @@
+{
+    "domains": [
+        {
+            "name": "domain.tld",
+            "subdomains": [
+                {
+                    "name": "www",
+                    "port": "443",
+                    "https": {
+                        "certstate": "ok",
+                        "expiry": 1549062018
+                    },
+                    "state": "online",
+                    "lastcheck": 1542118232,
+                    "contact": "admin@domain.tld",
+                    "check": "\/",
+                    "responsecode": 200
+                },
+                {
+                    "name": "secret",
+                    "port": "443",
+                    "https": {
+                        "certstate": "ok",
+                        "expiry": 1549062045
+                    },
+                    "state": "online",
+                    "lastcheck": 1542118232,
+                    "contact": "admin@domain.tld",
+                    "check": "\/",
+                    "headers": "Authorization: Basic c2VjcmV0OnNlY3JldAo=",
+                    "responsecode": 200
+                },
+                {
+                    "name": "hello",
+                    "port": "80",
+                    "state": "offline",
+                    "lastcheck": 1542118232,
+                    "contact": "admin@domain.tld",
+                    "check": "\/",
+                    "responsecode": 500
+                }
+            ]
+        },
+        {
+            "name": "another-domain.tld",
+            "subdomains": [
+                {
+                    "name": "",
+                    "port": "443",
+                    "https": {
+                        "certstate": "ok",
+                        "expiry": 1546138818
+                    },
+                    "state": "online",
+                    "lastcheck": 1542118234,
+                    "contact": "admin@domain.tld",
+                    "check": "\/",
+                    "responsecode": 200
+                }
+            ]
+        }
+    ]
+}
